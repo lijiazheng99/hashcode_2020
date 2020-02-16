@@ -10,6 +10,7 @@ def get_max_sum_segement(slices_max,slices_type_list):
         max_ending_here = max_ending_here + slices_type_list[index]
         if max_ending_here < 0:
             max_ending_here = 0
+            
 
         # if max_so_far < max_ending_here:
         #     max_so_far=
