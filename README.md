@@ -8,7 +8,7 @@
 
 ### [Practice-V2](practice/v2.py): Second version on HashCode pratice
 - We first shuffle the original slices type list K=10000 times with different random seeds, so we get K randomlized lists. 
-- Then apply the maximum sum segment algorithm
+- Then apply the maximum sum segment algorithm for the K lists
 - Next, apply get maximum segment out of the K maximum sum segments 
 - The algorithm does not guarantee the optimal but intuitively come close to the optimal
 - Assume the length of original list is N, the algorithm's complexity is O(N*K) that is efficient for the problem 
