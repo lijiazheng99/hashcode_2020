@@ -3,7 +3,7 @@
 
 #### [Practice-V1](practice/v1.py): First version on hashcode pratice
 - The method we used is exhaustive
-- Hence, the complexity is very. For example, for the medium sample, it takes 2e50 times of research, that is unrealistic for the actual problem
+- Hence, the complexity is very high. For example, for the medium sample, it takes 2e50 times of research, that is unrealistic for the actual problem
 - We need to consider optimization solutions
 
 ### [Practice-V2](practice/v2.py): Second version on hashcode pratice
