@@ -1,6 +1,4 @@
 import random
-
-
 def main(set_item):
 	[sum_goal, count_num] = input().split(" ")
 	number_list = input().split(" ")
@@ -38,8 +36,7 @@ def main(set_item):
 	for i in answer[1:]:
 		print(i,end=" ")
 	print()
-		
 
 if __name__ == '__main__':
-	set_item=100000
+	set_item=10000
 	main(set_item)

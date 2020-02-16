@@ -3,7 +3,6 @@ from tqdm import tqdm
 import numpy as np
 import itertools
 
-
 def get_max_list(slices_max, slices_type_list):
     max_list = []
     min_value = 1e12
@@ -14,7 +13,6 @@ def get_max_list(slices_max, slices_type_list):
                 min_value = left_value
                 max_list = subset
     return max_list
-
 
 def count_max(a_example):
     slices_type_list = a_example[1]
@@ -27,5 +25,5 @@ if __name__ == '__main__':
     inputs_dict = get_data(inputs)
     print(inputs_dict)
     # use a_Example as testing
-    a_example = inputs_dict["c_medium"]
+    a_example = inputs_dict["b_small"]
     print(count_max(a_example))
