@@ -1,5 +1,5 @@
-# HashCode2020
- This is a repository containing codes of [UCD](https://www.ucd.ie/) at HashCode 2020
+# HashCode2020 Practice
+ This is a repository containing codes of .orz team from [UCD](https://www.ucd.ie/) at HashCode 2020
 
 #### [Practice-V1](practice/v1.py): First version on HashCode pratice
 - The method we used is exhaustive
